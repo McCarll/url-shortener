@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30efed06-abed-4b8a-a10d-513be2e79f4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DataCollector/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataCollector/src/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/docker-jetbrains-license-server" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/libraries.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/src/main/java/ru/mccarl/consumer/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/src/main/java/ru/mccarl/consumer/config/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-producer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-java/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-java/src/main/java/com/mccarl/project/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-java/src/test/java/com/mccarl/project/MainTestNg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/App4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/ContactsCountRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/CustomCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/CustomRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test_java_learning/src/main/java/ru/mccarl/test/CustomThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/api/FormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/api/UrlShortenerRestApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/model/UrlModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/service/UrlShortenerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/service/impl/UrlShortenerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/storage/UrlRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="url-shortener" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="url-shortener" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="url-shortener" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="url-shortener" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="7d9e3ecf-ab53-4469-953c-d0ceabfb3e72" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1pExklvWAi7zDMffXzjCV53QI5I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db/migration" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="url-shortener [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="url-shortener.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mccarl.url.shortener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.mccarl.url.shortener.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Gradle.url-shortener [build]" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30efed06-abed-4b8a-a10d-513be2e79f4b" name="Default Changelist" comment="" />
+      <created>1614762196499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614762196499</updated>
+      <workItem from="1614762197772" duration="14694000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="599" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614808307663">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="599" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1614808307663" />
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1614807259082">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1614807259082" />
+    <state x="671" y="397" key="#xdebugger.evaluate" timestamp="1614808856372">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="671" y="397" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1614808856372" />
+    <state width="1638" height="470" key="GridCell.Tab.0.bottom" timestamp="1614812585352">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585352" />
+    <state width="1638" height="470" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1614812295879" />
+    <state width="1638" height="470" key="GridCell.Tab.0.center" timestamp="1614812585351">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585351" />
+    <state width="1638" height="470" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1614812295876" />
+    <state width="1638" height="470" key="GridCell.Tab.0.left" timestamp="1614812585350">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585350" />
+    <state width="1638" height="470" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1614812295874" />
+    <state width="1638" height="470" key="GridCell.Tab.0.right" timestamp="1614812585352">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585352" />
+    <state width="1638" height="470" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1614812295878" />
+    <state width="1638" height="470" key="GridCell.Tab.1.bottom" timestamp="1614812585355">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585355" />
+    <state width="1638" height="470" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1614812577761" />
+    <state width="1638" height="470" key="GridCell.Tab.1.center" timestamp="1614812585354">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585354" />
+    <state width="1638" height="470" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1614812577757" />
+    <state width="1638" height="470" key="GridCell.Tab.1.left" timestamp="1614812585353">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585353" />
+    <state width="1638" height="470" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1614812577749" />
+    <state width="1638" height="470" key="GridCell.Tab.1.right" timestamp="1614812585354">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585354" />
+    <state width="1638" height="470" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1614812577758" />
+    <state width="1638" height="470" key="GridCell.Tab.2.bottom" timestamp="1614812585357">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585357" />
+    <state width="1638" height="470" key="GridCell.Tab.2.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1614812295555" />
+    <state width="1638" height="470" key="GridCell.Tab.2.center" timestamp="1614812585356">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585356" />
+    <state width="1638" height="470" key="GridCell.Tab.2.center/0.25.1680.1025@0.25.1680.1025" timestamp="1614812295554" />
+    <state width="1638" height="470" key="GridCell.Tab.2.left" timestamp="1614812585355">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585355" />
+    <state width="1638" height="470" key="GridCell.Tab.2.left/0.25.1680.1025@0.25.1680.1025" timestamp="1614812295554" />
+    <state width="1638" height="470" key="GridCell.Tab.2.right" timestamp="1614812585357">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="470" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614812585357" />
+    <state width="1638" height="470" key="GridCell.Tab.2.right/0.25.1680.1025@0.25.1680.1025" timestamp="1614812295555" />
+    <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1614807349412">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="840" height="525" key="XDebugger.FullValuePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1614807349411" />
+    <state x="746" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1614807709621">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="746" y="416" width="342" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1680.1050@0.0.1680.1050" timestamp="1614807709621" />
+    <state x="614" y="349" width="452" height="335" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1614807617304">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="614" y="349" width="452" height="335" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1614807617304" />
+    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1614806123741">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614806123741" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1614811704771">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1614811704771" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/service/impl/UrlShortenerServiceImpl.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/service/impl/UrlShortenerServiceImpl.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/service/impl/UrlShortenerServiceImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/service/impl/UrlShortenerServiceImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/service/impl/UrlShortenerServiceImpl.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/service/impl/UrlShortenerServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mccarl/url/shortener/api/FormController.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

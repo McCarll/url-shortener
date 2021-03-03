@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="TRACE" name="spring-boot-log" packages="ru.mccarl.url.shortener">
+    <Appenders>
+        <Console name="ConsoleLogAppender">
+            <PatternLayout pattern="%-5level | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %c%n :  %message%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="ConsoleLogAppender"/>
+        </Root>
+
+        <!-- Do not let org.apache.kafka log to a Kafka appender on DEBUG level. That will cause recursive logging -->
+        <Logger name="org.springframework" level="OFF"/>
+        <Logger name="springfox" level="OFF"/>
+        <Logger name="org.apache" level="OFF"/>
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,44 @@
+group 'url-shortener'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.9.RELEASE")
+        classpath "se.transmode.gradle:gradle-docker:1.2"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply from: "libraries.gradle"
+apply plugin: 'docker'
+
+jar {
+    baseName = 'url-shortener'
+    version =  '0.1.1'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compileOnly "org.projectlombok:lombok:1.16.16"
+    compile libpacks.spring
+    compile libpacks.swagger
+    compile libpacks.lombok
+    compile libpacks.testing
+    compile('org.hibernate:hibernate-core:5.4.2.Final')
+    testCompile("junit:junit")
+    //Hibernate
+    implementation 'org.hibernate:hibernate-core:5.4.2.Final'
+    implementation 'org.hibernate:hibernate-entitymanager:5.4.2.Final'
+}
