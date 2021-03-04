@@ -21,7 +21,7 @@ public class UrlShortenerServiceImpl implements UrlShortenerService {
 
     @Override
     public String createShortUrl(HttpServletRequest request, String key) {
-        var urls = checkUrlExist(key);
+        List<UrlModel> urls = checkUrlExist(key);
         String baseUrl = request.getRequestURL().toString();
         if (urls.isEmpty()) {
             return create(baseUrl, key).getShortUrl();
@@ -43,9 +43,9 @@ public class UrlShortenerServiceImpl implements UrlShortenerService {
     @Override
     public String useShortUrl(HttpServletRequest request, String key) {
         String baseUrl = request.getRequestURL().toString();
-        List<UrlModel> urlModels = Optional.of(storageService.findByShortUrl(baseUrl)).orElse(Collections.emptyList());
+        List<UrlModel> urlModels = Optional.ofNullable(storageService.findByShortUrl(baseUrl)).orElse(Collections.EMPTY_LIST);
         if (urlModels.isEmpty()) {
-            return null;
+            throw new IllegalArgumentException("Cant find short url");
         } else {
             return urlModels.get(0).getUrlKey();
         }

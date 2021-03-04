@@ -1,6 +1,5 @@
 package ru.mccarl.url.shortener.storage;
 
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import ru.mccarl.url.shortener.model.UrlModel;
 

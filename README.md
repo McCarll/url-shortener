@@ -17,3 +17,7 @@ Use the JVM stack you are most comfortable with.
 No project is ever done/complete. Your job is to convince us that you understood the problem and that we want to discuss your approach with you.
 Do you really want to use a hash function? Think twice and motivate your choice.
 You may want to use external dependencies e.g. database. It’s totally fine! Just tell us more about your choice.
+
+## How to start
+- run docker compose - (docker-compose up) it`s required for database or you can set another db via application.yaml in resources
+- just start application ./gradlew bootRun

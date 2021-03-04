@@ -1,16 +1,14 @@
-ru/mccarl/url/shortener/storage/UrlRepository.java
- ru.mccarl.url.shortener.storage.UrlRepository
+ru/mccarl/url/shortener/config/Config.java
+ ru.mccarl.url.shortener.config.Config
+ru/mccarl/url/shortener/service/UrlShortenerService.java
+ ru.mccarl.url.shortener.service.UrlShortenerService
 ru/mccarl/url/shortener/Application.java
  ru.mccarl.url.shortener.Application
 ru/mccarl/url/shortener/api/UrlShortenerRestApi.java
  ru.mccarl.url.shortener.api.UrlShortenerRestApi
 ru/mccarl/url/shortener/model/UrlModel.java
  ru.mccarl.url.shortener.model.UrlModel
-ru/mccarl/url/shortener/service/UrlShortenerService.java
- ru.mccarl.url.shortener.service.UrlShortenerService
+ru/mccarl/url/shortener/storage/UrlRepository.java
+ ru.mccarl.url.shortener.storage.UrlRepository
 ru/mccarl/url/shortener/service/impl/UrlShortenerServiceImpl.java
  ru.mccarl.url.shortener.service.impl.UrlShortenerServiceImpl
-ru/mccarl/url/shortener/api/FormController.java
- ru.mccarl.url.shortener.api.FormController
-ru/mccarl/url/shortener/config/Config.java
- ru.mccarl.url.shortener.config.Config

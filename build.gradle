@@ -17,17 +17,13 @@ apply plugin: 'org.springframework.boot'
 apply from: "libraries.gradle"
 apply plugin: 'docker'
 
-jar {
-    baseName = 'url-shortener'
-    version =  '0.1.1'
-}
 
 repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 11
-targetCompatibility = 11
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
