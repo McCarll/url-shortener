@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<h5>Url-Shortener</h5>
+
+<script type="text/javascript">
+    function submit() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                document.getElementById('responseField').value = xhr.responseText;
+            }
+        }
+
+        xhr.open('POST', 'http://localhost:8080/url', true);
+        xhr.setRequestHeader('Content-Type', 'text/plain; charset=UTF-8');
+        xhr.send(document.getElementById('requestField').value);
+    }
+
+</script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<textarea id="requestField" name="something">put your link here</textarea>
+<button id = "submitButton" onclick = "return submit();">Create short url</button>
+<br>
+<textarea id="responseField" name="something">your response will be here</textarea>
+
+</body>
+</html>

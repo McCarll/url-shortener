@@ -1,2 +1,0 @@
-ru/mccarl/test/url/shortener/ApiTest.java
- ru.mccarl.test.url.shortener.ApiTest

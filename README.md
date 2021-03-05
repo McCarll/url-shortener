@@ -21,3 +21,10 @@ You may want to use external dependencies e.g. database. It’s totally fine! Ju
 ## How to start
 - run docker compose - (docker-compose up) it`s required for database or you can set another db via application.yaml in resources
 - just start application ./gradlew bootRun
+
+## Features
+- rest api (Spring boot)
+- builder (gradle)
+- documentation (swagger-ui http://localhost:8080/swagger-ui.html)
+- docker-compose
+- db version control (flyway) 
