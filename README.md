@@ -24,6 +24,7 @@ You may want to use external dependencies e.g. database. It’s totally fine! Ju
 
 ## Features
 - rest api (Spring boot)
+- html page is available in url http://localhost:8080/index.html
 - builder (gradle)
 - documentation (swagger-ui http://localhost:8080/swagger-ui.html)
 - docker-compose
